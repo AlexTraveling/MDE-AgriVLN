@@ -24,23 +24,30 @@ To bridge this gap, we present the method of Agricultural Vision-and-Language Na
 ![Method of MDE-AgriVLN](asset/fig_method.jpeg)
 
 ## Quick Start
-We are clearing up all the codes of MDE-AgriVLN, which will be available in about one week.
-<!-- Download the source code of the MDE-AgriVLN method.
+<!-- We are clearing up all the codes of MDE-AgriVLN, which will be available in about one week. -->
+1. Download the source codes of MDE-AgriVLN.
 ```bash
 git clone git@github.com:AlexTraveling/MDE-AgriVLN.git
 cd MDE-AgriVLN-main
 ```
-Create a new conda environment, then install all the dependent packages.
+2. Create a new conda environment, then install all the dependent packages.
 ```bash
 conda create -n mde-agrivln python=3.11
 conda activate mde-agrivln
 pip install -r requirements.txt
 ```
-Run the home_mde_agrivln.py file to start the MDE-AgriVLN method, in which all the six place classifications are available: farm, greenhouse, forest, mountain, garden and village.
+3. Deploy the ollama environment following the [official guidance](https://github.com/ollama/ollama), then download the Large Language Model (LLM) and Vision-Language Model (VLM), for which we use DeepSeek-R1-32B and Qwen2.5-VL-32B as the default LLM and VLM, respectively, matching the setting in our paper.
+```bash
+ollama pull deepseek-r1:32b
+ollama pull qwen2.5vl:32b
+# if you want to use another model, just change the model name.
+```
+4. Deploy the monocular depth estimator of Depth Pro following the [official guidance](https://github.com/apple/ml-depth-pro).
+5. Run the home_mde_agrivln.py file to start MDE-AgriVLN, in which all the six place classifications are available: farm, greenhouse, forest, mountain, garden and village. The running results will be shown in terminal and saved in local.
 ```bash
 python home_mde_agrivln.py --place farm
 ```
-The running results will be shown in terminal and saved in local. -->
+
 
 ## Acknowledgment
 Thanks to Kota Kinabalu, Brunei, Penang and Siem Reap for the impressive traveling experiences, giving us a chilled vibe for writing. Thanks to Jingfeng Wang for being the participant offering the Human reasoning thoughts for the teaser figure in our paper. Thanks to Yuanquan Xu, the inspiration to us.
