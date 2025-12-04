@@ -2,10 +2,9 @@
 <h1>MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation</h1>
 <a href="https://arxiv.org/abs/2512.03958"><img src="https://img.shields.io/badge/arXiv-2512.03958-b31b1b" alt="arXiv"></a>
 
-[Xiaobei Zhao](https://github.com/AlexTraveling), [Xingqi Lyu](https://github.com/AlexTraveling), [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)
+[Xiaobei Zhao](https://github.com/AlexTraveling)<sup>1</sup> · [Xingqi Lyu](https://github.com/AlexTraveling)<sup>1</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>1</sup>
 
-**[China Agricultural University](https://ciee.cau.edu.cn)**
-
+<sup>1</sup>**[China Agricultural University](https://ciee.cau.edu.cn)**
 xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
@@ -43,11 +42,15 @@ ollama pull qwen2.5vl:32b
 # if you want to use another model, just change the model name.
 ```
 4. Deploy the monocular depth estimator of Depth Pro following the [official guidance](https://github.com/apple/ml-depth-pro).
-5. Run the home_mde_agrivln.py file to start MDE-AgriVLN, in which all the six place classifications are available: farm, greenhouse, forest, mountain, garden and village. The running results will be shown in terminal and saved in local.
+5. Run the home_mde_agrivln.py file to start MDE-AgriVLN, in which all the six place classifications are available. The running results will be shown in terminal and saved in local.
+Options:
+- `--place -p`: The agricultural scene classification, for which you can set it to `farm`, `greenhouse`, `forest`, `mountain`, `garden` or `village`.
+- `--representation -r` (optional): The representation paradigm of the MDE module, for which the default setting is `matrix`, and you can change it to `map` or `hybrid`.
+- `--estimater -e` (optional): The monocular depth estimator of the MDE module, for which the default setting is `depth_pro` (Depth Pro), and you can change it to `depth_anything_v2` (Depth Anything V2) or `pixel-perfect_depth` (Pixel-Perfect Depth).
+Here is an example:
 ```bash
-python home_mde_agrivln.py --place farm
+python home_mde_agrivln.py -p greenhouse -r matrix -e depth_pro
 ```
-
 
 ## Acknowledgment
 Thanks to Kota Kinabalu, Brunei, Penang and Siem Reap for the impressive traveling experiences, giving us a chilled vibe for writing. Thanks to Jingfeng Wang for being the participant offering the Human reasoning thoughts for the teaser figure in our paper. Thanks to Yuanquan Xu, the inspiration to us.
