@@ -5,13 +5,14 @@
 [Xiaobei Zhao](https://github.com/AlexTraveling)<sup>1</sup> · [Xingqi Lyu](https://github.com/AlexTraveling)<sup>1</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>1</sup>
 
 <sup>1</sup>**[China Agricultural University](https://ciee.cau.edu.cn)**
+
 xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
 </div>
 
 ## Updates
-<!-- - [October 17th, 2025] We open-source the complete code of the T-araVLN method, and provide the corresponding guidance to set up. -->
+- [December 5th, 2025] We provide the detailed guidance to set up MDE-AgriVLN in a local environment.
 - [December 4th, 2025] We open-source the complete codes of MDE-AgriVLN.
 - [December 3rd, 2025] The paper “MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation” is available for reading on [arXiv](https://arxiv.org/abs/2512.03958).
 
@@ -43,10 +44,12 @@ ollama pull qwen2.5vl:32b
 ```
 4. Deploy the monocular depth estimator of Depth Pro following the [official guidance](https://github.com/apple/ml-depth-pro).
 5. Run the home_mde_agrivln.py file to start MDE-AgriVLN, in which all the six place classifications are available. The running results will be shown in terminal and saved in local.
+
 Options:
 - `--place -p`: The agricultural scene classification, for which you can set it to `farm`, `greenhouse`, `forest`, `mountain`, `garden` or `village`.
 - `--representation -r` (optional): The representation paradigm of the MDE module, for which the default setting is `matrix`, and you can change it to `map` or `hybrid`.
 - `--estimater -e` (optional): The monocular depth estimator of the MDE module, for which the default setting is `depth_pro` (Depth Pro), and you can change it to `depth_anything_v2` (Depth Anything V2) or `pixel-perfect_depth` (Pixel-Perfect Depth).
+
 Here is an example:
 ```bash
 python home_mde_agrivln.py -p greenhouse -r matrix -e depth_pro
@@ -65,3 +68,6 @@ If our paper or method is helpful for your research, welcome you use the followi
   year={2025}
 }
 ```
+
+## Communication
+If you meet any problems with MDE-AgriVLN, welcome contacting the first author (Xiaobei Zhao, xiaobeizhao2002@163.com) to share your findings and thoughts.
