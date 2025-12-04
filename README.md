@@ -24,7 +24,8 @@ To bridge this gap, we present the method of Agricultural Vision-and-Language Na
 ![Method of MDE-AgriVLN](asset/fig_method.jpeg)
 
 ## Quick Start
-Download the source code of the MDE-AgriVLN method.
+We are clearing up all the codes of MDE-AgriVLN, which will be available in about one week.
+<!-- Download the source code of the MDE-AgriVLN method.
 ```bash
 git clone git@github.com:AlexTraveling/MDE-AgriVLN.git
 cd MDE-AgriVLN-main
@@ -39,7 +40,7 @@ Run the home_mde_agrivln.py file to start the MDE-AgriVLN method, in which all t
 ```bash
 python home_mde_agrivln.py --place farm
 ```
-The running results will be shown in terminal and saved in local.
+The running results will be shown in terminal and saved in local. -->
 
 ## Acknowledgment
 Thanks to Kota Kinabalu, Brunei, Penang and Siem Reap for the impressive traveling experiences, giving us a chilled vibe for writing. Thanks to Jingfeng Wang for being the participant offering the Human reasoning thoughts for the teaser figure in our paper. Thanks to Yuanquan Xu, the inspiration to us.
