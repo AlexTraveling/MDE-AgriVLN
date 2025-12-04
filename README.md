@@ -56,7 +56,7 @@ python home_mde_agrivln.py -p greenhouse -r matrix -e depth_pro
 ```
 
 ## Acknowledgment
-Thanks to Kota Kinabalu, Brunei, Penang and Siem Reap for the impressive traveling experiences, giving us a chilled vibe for writing. Thanks to Jingfeng Wang for being the participant offering the Human reasoning thoughts for the teaser figure in our paper. Thanks to Yuanquan Xu, the inspiration to us.
+Thanks to Kota Kinabalu, Brunei, Penang and Siem Reap for the impressive traveling experiences, giving us a chilled vibe for writing. Thanks to Kathy Wang for being the participant offering the Human reasoning thoughts for the teaser figure in our paper. Thanks to Yuanquan Xu, the inspiration to us.
 
 ## Citation
 If our paper or method is helpful for your research, welcome you use the following citation:
