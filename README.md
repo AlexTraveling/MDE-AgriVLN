@@ -13,7 +13,7 @@ xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 
 ## Updates
 <!-- - [October 17th, 2025] We open-source the complete code of the T-araVLN method, and provide the corresponding guidance to set up. -->
-<!-- - [October 2nd, 2025] We open-source the code of the instruction translator module. -->
+- [December 4th, 2025] We open-source the complete codes of MDE-AgriVLN.
 - [December 3rd, 2025] The paper “MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation” is available for reading on [arXiv](https://arxiv.org/abs/2512.03958).
 
 ## Overview
