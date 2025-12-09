@@ -62,7 +62,7 @@ Here we share the video of the demonstration mentioned in our paper.
 </p>
 <!-- ![demo](./asset/demo.gif) -->
 
-Instruction: *Now you are standing on the ground of a greenhouse. There are lots of blue boxes in your view, and I need you navigate to the blue box with plants planted on it, which is at the end of the road in front of you. Please go along the path and stop when you are very close to the destination.*
+> Instruction: *Now you are standing on the ground of a greenhouse. There are lots of blue boxes in your view, and I need you navigate to the blue box with plants planted on it, which is at the end of the road in front of you. Please go along the path and stop when you are very close to the destination.*
 
 ## Acknowledgment
 Thanks to Kota Kinabalu, Brunei, Penang and Siem Reap for the impressive traveling experiences, giving us a chilled vibe for writing. Thanks to Kathy Wang for being the participant offering the Human reasoning thoughts for the teaser figure in our paper. Thanks to Yuanquan Xu, the inspiration to us.
