@@ -1,6 +1,10 @@
 <div align="center">
 <h1>MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation</h1>
-<a href="https://arxiv.org/abs/2512.03958"><img src="https://img.shields.io/badge/arXiv-2512.03958-b31b1b" alt="arXiv"></a>
+
+<p>
+  <a href="https://arxiv.org/abs/2512.03958"><img src="https://img.shields.io/badge/arXiv-2512.03958-b31b1b" alt="arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
 
 [Xiaobei Zhao](https://github.com/AlexTraveling)<sup>1</sup> · [Xingqi Lyu](https://github.com/AlexTraveling)<sup>1</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>1</sup>
 
@@ -11,7 +15,7 @@ xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
 </div>
 
-> MDE-AgriVLN v.s. Human and Baseline on a representative episode. In every method's section, the right images are the visual inputs at the time step $t = 6.2s$ (marked by the white arrows), the bottom textbox is the reasoning result at the same time step, and the top textbox is the evaluation result. Underline marks the pivotal reasoning thoughts.
+<!-- > MDE-AgriVLN v.s. Human and Baseline on a representative episode. In every method's section, the right images are the visual inputs at the time step $t = 6.2s$ (marked by the white arrows), the bottom textbox is the reasoning result at the same time step, and the top textbox is the evaluation result. Underline marks the pivotal reasoning thoughts. -->
 
 ## Updates
 - [December 5th, 2025] We provide the detailed guidance to set up MDE-AgriVLN in a local environment.
@@ -25,7 +29,7 @@ To bridge this gap, we present the method of Agricultural Vision-and-Language Na
 
 ![Method of MDE-AgriVLN](asset/fig_method.jpeg)
 
-> MDE-AgriVLN methodology illustration: The MDE module (yellow part) takes a single frame from a camera video streaming as input, to output the depth feature in two representation classifications. The base model (green part) simultaneously understand the instruction, RGB input and depth input, to reason the most appropriate low-level action with an explicit thought.
+<!-- > MDE-AgriVLN methodology illustration: The MDE module (yellow part) takes a single frame from a camera video streaming as input, to output the depth feature in two representation classifications. The base model (green part) simultaneously understand the instruction, RGB input and depth input, to reason the most appropriate low-level action with an explicit thought. -->
 
 ## Quick Start
 <!-- We are clearing up all the codes of MDE-AgriVLN, which will be available in about one week. -->
