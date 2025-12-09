@@ -11,6 +11,8 @@ xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
 </div>
 
+> MDE-AgriVLN v.s. Human and Baseline on a representative episode. In every method's section, the right images are the visual inputs at the time step $t = 6.2s$ (marked by the white arrows), the bottom textbox is the reasoning result at the same time step, and the top textbox is the evaluation result. Underline marks the pivotal reasoning thoughts.
+
 ## Updates
 - [December 5th, 2025] We provide the detailed guidance to set up MDE-AgriVLN in a local environment.
 - [December 4th, 2025] We open-source the complete codes of MDE-AgriVLN.
@@ -22,6 +24,8 @@ Agricultural robots are serving as powerful assistants across a wide range of ag
 To bridge this gap, we present the method of Agricultural Vision-and-Language Navigation with Monocular Depth Estimation (MDE-AgriVLN), in which we propose the MDE module generating depth features from RGB images, to assist the decision-maker on reasoning. When evaluated on the A2A benchmark, our MDE-AgriVLN method successfully increases Success Rate from 0.23 to 0.32 and decreases Navigation Error from 4.43m to 4.08m, demonstrating the state-of-the-art performance in the agricultural VLN domain.
 
 ![Method of MDE-AgriVLN](asset/fig_method.jpeg)
+
+> MDE-AgriVLN methodology illustration: The MDE module (yellow part) takes a single frame from a camera video streaming as input, to output the depth feature in two representation classifications. The base model (green part) simultaneously understand the instruction, RGB input and depth input, to reason the most appropriate low-level action with an explicit thought.
 
 ## Quick Start
 <!-- We are clearing up all the codes of MDE-AgriVLN, which will be available in about one week. -->
