@@ -58,6 +58,7 @@ python home_mde_agrivln.py -p greenhouse -r matrix -e depth_pro
 Here we share the video of the demonstration mentioned in our paper.
 
 ![demo](./asset/demo.gif)
+
 Instruction: *Now you are standing on the ground of a greenhouse. There are lots of blue boxes in your view, and I need you navigate to the blue box with plants planted on it, which is at the end of the road in front of you. Please go along the path and stop when you are very close to the destination.*
 
 ## Acknowledgment
