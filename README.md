@@ -12,7 +12,7 @@
 
 xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
 
-<sup>📧</sup>Corresponding Author
+<!-- <sup>📧</sup>Corresponding Author -->
 
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
 </div>
