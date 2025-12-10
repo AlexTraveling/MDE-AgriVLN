@@ -6,11 +6,13 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
-[Xiaobei Zhao](https://github.com/AlexTraveling)<sup>1</sup> · [Xingqi Lyu](https://github.com/AlexTraveling)<sup>1</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>1</sup>
+[Xiaobei Zhao](https://github.com/AlexTraveling)<sup>1</sup> · [Xingqi Lyu](https://github.com/AlexTraveling)<sup>1</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>1📧</sup>
 
 <sup>1</sup>**[China Agricultural University](https://ciee.cau.edu.cn)**
 
 xiaobeizhao2002@163.com, lxq99725@163.com, cqlixiang@cau.edu.cn
+
+<sup>📧</sup>Corresponding Author
 
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
 </div>
