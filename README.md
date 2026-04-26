@@ -20,6 +20,8 @@ xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.c
 <!-- > MDE-AgriVLN v.s. Human and Baseline on a representative episode. In every method's section, the right images are the visual inputs at the time step $t = 6.2s$ (marked by the white arrows), the bottom textbox is the reasoning result at the same time step, and the top textbox is the evaluation result. Underline marks the pivotal reasoning thoughts. -->
 
 ## Updates
+- [April 26th, 2026] Congratulations to us! The paper “MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation” is accepted by ICIC 2026 as a oral presentation.
+- [March 16th, 2026] The paper “MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation” is rejected by ICME 2026.
 - [December 5th, 2025] We provide the detailed guidance to set up MDE-AgriVLN in a local environment.
 - [December 4th, 2025] We open-source the complete codes of MDE-AgriVLN.
 - [December 3rd, 2025] The paper “MDE-AgriVLN: Agricultural Vision-and-Language Navigation with Monocular Depth Estimation” is available for reading on [arXiv](https://arxiv.org/abs/2512.03958).
